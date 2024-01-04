@@ -9,11 +9,15 @@ export default {
         '5-cream': 'hsl(30, 38%, 92%)',
         '5-very-dark-blue': 'hsl(212, 21%, 14%)',
         '5-dark-grayish-blue': 'hsl(228, 12%, 48%)',
+        '6-light-gray': 'hsl(212, 45%, 89%)',
+        '6-grayish-blue': 'hsl(220, 15%, 55%)',
+        '6-dark-blue': 'hsl(218, 44%, 22%)',
       },
-			fontFamily: {
-				'montserrat': ['Montserrat Variable', 'sans-serif'],
-				'fraunces': ['Fraunces Variable', 'sans-serif']
-			}
+      fontFamily: {
+        montserrat: ['Montserrat Variable', 'sans-serif'],
+        fraunces: ['Fraunces Variable', 'sans-serif'],
+        outfit: ['Outfit Variable', 'sans-serif'],
+      },
     },
   },
   plugins: [],
