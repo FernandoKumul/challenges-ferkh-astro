@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro'
+import '@fontsource-variable/outfit'
+---
+
+<Layout title='QR Code'>
+  <main class='min-h-dvh font-outfit bg-6-light-gray flex justify-center items-center px-7'>
+    <article class='bg-white rounded-2xl p-4 text-[15px] md:max-w-[300px] shadow-[0_0px_30px_-15px_rgba(0,0,0,0.3)]'>
+      <img src='/image-qr-code.png' alt='qr-code' class="rounded-xl w-full" />
+      <section class="px-3 py-5">
+        <h2 class='font-bold text-center text-6-dark-blue text-xl mb-4 leading-6'>
+          Improve your front-end skills by building projects
+        </h2>
+        <p class="text-center text-6-grayish-blue leading-4">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </section>
+    </article>
+  </main>
+</Layout>
