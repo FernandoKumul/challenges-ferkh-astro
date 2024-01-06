@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.0.9)(tailwindcss@3.4.0)
+  '@fontsource-variable/figtree':
+    specifier: ^5.0.19
+    version: 5.0.19
   '@fontsource-variable/fraunces':
     specifier: ^5.0.19
     version: 5.0.19
@@ -619,6 +622,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/figtree@5.0.19:
+    resolution: {integrity: sha512-4R7dcsjNJxAhamtOXDlsZgXIPYShzP2sloFFaQXOO9bUHk1thkQWElXzvlinzzI17H59iexUf987m7XTOv/zyQ==}
+    dev: false
 
   /@fontsource-variable/fraunces@5.0.19:
     resolution: {integrity: sha512-KmnLRyZ7BPp3TlyxlknD+/TKjdMqPnFC8FnW9KxASDUfMi+J/POc20CHT8EC0rI+u9im9HATsm4GCyxurVwT1Q==}
