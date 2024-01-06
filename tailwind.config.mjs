@@ -20,7 +20,7 @@ export default {
         montserrat: ['Montserrat Variable', 'sans-serif'],
         fraunces: ['Fraunces Variable', 'sans-serif'],
         outfit: ['Outfit Variable', 'sans-serif'],
-        figtree: ['Figtree', 'sans-serif'],
+        figtree: ['Figtree Variable', 'sans-serif'],
       },
     },
   },
