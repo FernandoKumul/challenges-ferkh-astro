@@ -17,6 +17,9 @@ dependencies:
   '@fontsource-variable/fraunces':
     specifier: ^5.0.19
     version: 5.0.19
+  '@fontsource-variable/hanken-grotesk':
+    specifier: ^5.0.19
+    version: 5.0.19
   '@fontsource-variable/montserrat':
     specifier: ^5.0.17
     version: 5.0.17
@@ -629,6 +632,10 @@ packages:
 
   /@fontsource-variable/fraunces@5.0.19:
     resolution: {integrity: sha512-KmnLRyZ7BPp3TlyxlknD+/TKjdMqPnFC8FnW9KxASDUfMi+J/POc20CHT8EC0rI+u9im9HATsm4GCyxurVwT1Q==}
+    dev: false
+
+  /@fontsource-variable/hanken-grotesk@5.0.19:
+    resolution: {integrity: sha512-En5lsBwjJ9fxyRLq72TKlf/65/joUMWJhEEwlH4hPEbL3L2zYeUlj10iUwANkD06Zc3PM54J5lOp1Qjnl6EH2g==}
     dev: false
 
   /@fontsource-variable/montserrat@5.0.17:
