@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro'
 import '@fontsource-variable/hanken-grotesk'
 import data from '../mock/04-data.json'
 import { Image } from 'astro:assets'
-const images = import.meta.glob('/src/assets/*.svg')
 
 const COLORS = {
   Reaction: 'text-4-light-red bg-4-light-red/[0.07]',
@@ -48,10 +47,10 @@ const COLORS = {
               >
                 <div class='flex gap-3 items-center'>
                   <Image
-                    src={
-                      images[item.icon]() as Promise<{ default: ImageMetadata }>
-                    }
+                    src={item.icon}
                     alt={`icon-${item.category}`}
+                    width={20}
+                    height={20}
                   />
                   {item.category}
                 </div>
